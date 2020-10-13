@@ -2,7 +2,6 @@
 
 <html lang="en">
     <head>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
         <title>What to bring</title>
     </head>
@@ -16,28 +15,9 @@
         </div>
 
         <h1 class="top-left">What to Bring!</h1>
-
-        <p1 class="paragraph">
-            <p3>What do you want to add to the list?</p3>
-
-            <button onclick="addtolist()">Add something!</button>
-        </p1>
-
-
-        <p4 id="active" class="list"></p4>
-
-        <script>
-            function addtolist() {
-                var item = prompt("Add something!");
-                if (item != null) {
-                    document.getElementById("active").innerHTML = item;
-                }
-            }
-        </script>
-    </body>
-
             <ol class="list">
                 <li>tent</li>
                 <li>banana</li>
             </ol>
+    </body>
 </html>
