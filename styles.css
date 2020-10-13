@@ -1,1 +1,43 @@
+.bg {
+    background-image: url("main.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
+.top-left {
+    position: absolute;
+    top: 60px;
+    left: 45px;
+    font-size: 50px;
+    font-family: "Verdana", Geneva, sans-serif;
+    font-weight: bold;
+}
+
+.paragraph {
+    position: absolute;
+    text-align:center;
+    top: 500px;
+    left: 50px;
+    font-size: 24px;
+    font-family: "Verdana", Geneva, sans-serif;
+    font-weight: bold;
+}
+
+.list {
+    position: absolute;
+    text-align:center;
+    top: 200px;
+    left: 50px;
+    font-size: 14px;
+    font-family: "Verdana", Geneva, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+}
