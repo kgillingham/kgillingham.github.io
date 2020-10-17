@@ -19,25 +19,8 @@ h2 {
 
 h3 {
 	font-size: 40px;
-	margin: 80px;
+	margin: 30px;
 	color: #DC143C;
-}
-
-p1 {
-	font-size: 40px;
-}
-
-p2 {
-	font-size: 30px;
-	color: #006400;
-}
-
-p3 {
-	font-size: 20px;
-	position: fixed;
-	bottom: 10px;
-	left: 20px;
-	color:#DCDCDC;
 }
 
 div{
@@ -54,6 +37,24 @@ ul {
 	color: #000080;
 }
 
+.big {
+	font-size: 40px;
+	padding: 1px;
+}
+
+.medium {
+	font-size: 30px;
+	color: #006400;
+}
+
+.faint {
+	font-size: 20px;
+	position: fixed;
+	bottom: 10px;
+	left: 20px;
+	color:#DCDCDC;
+}
+
 /* used https://www.w3schools.com/css/css3_buttons.asp as reference */
 .button{
 	font-size: 50px;
@@ -65,6 +66,6 @@ ul {
 
 .border {
 	border: 2px solid;
-	padding: 25px;
-	margin: 25px;
+	padding: 20px;
+	margin: 20px;
 }
