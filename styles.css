@@ -1,43 +1,70 @@
-.bg {
-    background-image: url("main.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+/* All colours referenced from https://www.w3schools.com/cssref/css_colors.asp */
+
+* {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.top-left {
-    position: absolute;
-    top: 60px;
-    left: 45px;
-    font-size: 50px;
-    font-family: "Verdana", Geneva, sans-serif;
-    font-weight: bold;
+h1 {
+	font-size: 75px;
+	font-weight: bold;
+	margin: 25px;
 }
 
-.paragraph {
-    position: absolute;
-    text-align:center;
-    top: 500px;
-    left: 50px;
-    font-size: 24px;
-    font-family: "Verdana", Geneva, sans-serif;
-    font-weight: bold;
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	margin: 25px;
 }
 
-.list {
-    position: absolute;
-    text-align:center;
-    top: 200px;
-    left: 50px;
-    font-size: 14px;
-    font-family: "Verdana", Geneva, sans-serif;
+h3 {
+	font-size: 40px;
+	margin: 80px;
+	color: #DC143C;
+}
+
+p1 {
+	font-size: 40px;
+}
+
+p2 {
+	font-size: 30px;
+	color: #006400;
+}
+
+p3 {
+	font-size: 20px;
+	position: fixed;
+	bottom: 10px;
+	left: 20px;
+	color:#DCDCDC;
+}
+
+div{
+	width: 45%;
+}
+
+img {
+	float: right;
+	padding-right: 10px;
 }
 
 ul {
-    list-style-type: none;
+	font-size: 30px;
+	color: #000080;
 }
 
-li {
-    display: inline;
-    padding: 8px;
+/* used https://www.w3schools.com/css/css3_buttons.asp as reference */
+.button{
+	font-size: 50px;
+	background-color: #00BFFF;
+	padding: 1px 40px;
+	text-decoration: none;
+	border: 2px solid;
+}
+
+.border {
+	border: 2px solid;
+	padding: 25px;
+	margin: 25px;
 }
