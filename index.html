@@ -6,20 +6,32 @@
         <title>Visiting Algonquin Park</title>
     </head>
 
-    <body class="bg">
-        <div class="btn-group" role="group" aria-label="Basic Example">
-            <a href="index.html" class="btn btn-secondary">Home</a>
-            <a href="packinglist.html" class="btn btn-secondary">Packing List</a>
-            <a href="reserve.html" class="btn btn-secondary">Reserve</a>
-            <a href="about.html" class="btn btn-secondary">About</a>
+    <body>
+		<!-- modified from https://www.w3schools.com/css/css_navbar.asp -->
+        <div>
+            <a href="index.html" class="button">Home</a>
+            <a href="packinglist.html" class="button">Packing List</a>
+            <a href="reserve.html" class="button">Reserve</a>
+            <a href="faq.html" class="button">FAQ</a>
         </div>
 
-        <h1 class="top-left">Visiting Algonquin Park</h1>
-
-        <p class="paragraph">
-            Love camping, but not sure where to start with canoe camping? <br>
-            This website will give you basic information on how to go about <br>
-            planning your first canoe camping trip in Algonquin Park, Ontario Canada.
-        </p>
+        <h1>Visiting Algonquin Park</h1>
+		
+		<!-- Google Maps Static API image created using documentation from https://developers.google.com/maps/documentation/maps-static/start ; API key courtesy of Shawn Morgan -->
+		<img src="https://maps.googleapis.com/maps/api/staticmap?center=AlgonquinPark&zoom=7&size=640x640&scale=2&key=AIzaSyDkNXlV6Rib05Pi-6McS2M8uChUQGBN9xo" alt="Algonquin Park Overview Map">
+		
+		<div class="border">
+			<p class="big">
+				Algonquin Provincial Park is an amazing place to explore, hike, paddle, and camp. It is located roughly 3 hours west of Ottawa, or 3 hours north of Toronto.
+			</p>
+		</div>
+		
+		<div class="border">
+			<p class="big">
+				Check out <a href="https://www.ontarioparks.com/park/algonquin">the official website</a>!
+			</p>
+		</div>
+		
+		<p class="faint">Website created by Kazuto Gillingham</p>
     </body>
 </html>
