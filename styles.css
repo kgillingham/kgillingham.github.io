@@ -4,10 +4,6 @@
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-body{
-	background-color: #ADD8E6;
-}
-
 h1 {
 	font-size: 75px;
 	font-weight: bold;
@@ -34,6 +30,8 @@ div{
 img {
 	float: right;
 	padding-right: 10px;
+	max-width: 45%;
+	height: auto;
 }
 
 ul {
